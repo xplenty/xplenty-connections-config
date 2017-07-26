@@ -1,0 +1,7 @@
+{
+  "basic_auth_connection":  {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BasicAuthStrategy"
+    }
+  }
+}
