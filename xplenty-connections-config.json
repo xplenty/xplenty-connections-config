@@ -1,7 +1,12 @@
 {
-  "basic_auth_connection":  {
+  "basic_auth":  {
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BasicAuthStrategy"
+    }
+  },
+  "intercom":  {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
   }
 }
