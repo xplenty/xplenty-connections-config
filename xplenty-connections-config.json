@@ -8,5 +8,25 @@
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
+  },
+  "facebookadsinsights" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "google-analytics" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "adwords" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "bingads" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
   }
 }
