@@ -6,7 +6,7 @@
 
 ENVIRONMENT=$1
 VERSION=$(cat ./version)
-echo "Creating version ${VERSION}"
+echo "Using version: ${VERSION}"
 
 echo
 echo "Creating POM file"
