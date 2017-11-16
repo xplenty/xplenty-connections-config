@@ -19,12 +19,7 @@
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
   },
-  "adwords" : {
-    "auth_strategy": {
-      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
-    }
-  },
-  "bingads" : {
+  "salesforce" : {
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
