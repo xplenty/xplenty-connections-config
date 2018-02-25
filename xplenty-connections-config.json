@@ -28,5 +28,20 @@
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
+  },
+  "shopify": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.CustomAuthStrategy",
+      "config": {
+        "headers": {
+          "X-Shopify-Access-Token" : "${access_token}"
+        }
+      }
+    }
+  },
+  "google-speadsheets" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
   }
 }
