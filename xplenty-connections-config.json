@@ -39,7 +39,27 @@
       }
     }
   },
-  "google-speadsheets" : {
+  "googlespreadsheets" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "instagram": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.CustomAuthStrategy",
+      "config": {
+        "query_params": {
+          "access_token" : "${access_token}"
+        }
+      }
+    }
+  },
+  "youtube" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "marketo" : {
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
