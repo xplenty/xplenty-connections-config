@@ -68,5 +68,15 @@
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.XeroAuthStrategy"
     }
+  },
+  "pinterest": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.CustomAuthStrategy",
+      "config": {
+        "query_params": {
+          "access_token" : "${access_token}"
+        }
+      }
+    }
   }
 }
