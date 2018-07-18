@@ -79,4 +79,4 @@ It is worth mentioning that a class `com.xplenty.connections.strategies.auth.Cus
     }
 ```
 
-Would describe an authentication which adds a query param to each request where the parameter name is `authentication_query_param` and the value would be the `access_key` value described in the specific connection used.
+Would describe an authentication which adds a query param to the URL of each request where the parameter name is `authentication_query_param` and the value would be the `access_key` value described in the specific connection used.
