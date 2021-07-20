@@ -78,5 +78,16 @@
         }
       }
     }
+  },
+  "marketingcloud": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.SoapBodyAuthStrategy",
+      "config": {
+        "replace": {
+          "/header/fueloauth" : "access_token",
+          "/Envelope/Header/fueloauth" : "access_token"
+        }
+      }
+    }
   }
 }
