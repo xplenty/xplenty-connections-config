@@ -89,5 +89,10 @@
         }
       }
     }
+  },
+  "marketingcloudrest" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
   }
 }
