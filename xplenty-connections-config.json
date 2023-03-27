@@ -94,5 +94,10 @@
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
+  },
+  "hubspot": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
   }
 }
