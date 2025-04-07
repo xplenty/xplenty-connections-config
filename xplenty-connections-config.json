@@ -24,6 +24,11 @@
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
   },
+  "salesforceownoauth" : {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
   "linkedin" : {
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
