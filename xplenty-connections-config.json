@@ -114,5 +114,30 @@
     "auth_strategy": {
       "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
     }
+  },
+  "api_connection_none": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "api_connection_basic": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BasicAuthStrategy"
+    }
+  },
+  "api_connection_bearer": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "api_connection_api_key_header": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
+  },
+  "api_connection_oauth2_refresh": {
+    "auth_strategy": {
+      "type": "com.xplenty.connections.strategies.auth.BearerAuthStrategy"
+    }
   }
 }
